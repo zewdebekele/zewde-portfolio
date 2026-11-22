@@ -31,7 +31,7 @@ function TiltCard() {
       <motion.div style={{ rotateX, rotateY, transformStyle: "preserve-3d" }} className="relative glass rounded-3xl p-3">
         <div className="rounded-2xl overflow-hidden aspect-[4/5] bg-gradient-to-br from-purple-700 to-cyan-600 grid place-items-center">
           {failed ? <span className="font-heading text-7xl font-bold text-white/90">ZB</span>
-            : <img src={p.photo} alt="Zewde Bekele Biru" className="w-full h-full object-cover" onError={() => setFailed(true)} />}
+            : <img src="/assets/zewde-profile.jpg" alt="Zewde Bekele Biru" className="w-full h-full object-cover" onError={() => setFailed(true)} />}
         </div>
       </motion.div>
     </div>
