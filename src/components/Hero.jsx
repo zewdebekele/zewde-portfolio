@@ -52,7 +52,7 @@ export default function Hero() {
           <p className="text-gray-400 mb-2">Hi, I'm</p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight grad-text">{p.name}</h1>
           <p className="mt-5 text-lg text-gray-300 max-w-xl">{p.role}</p>
-          <p className="mt-4 text-2xl font-heading h-9 text-white" aria-live="off">{typed}<span className="text-brand-cyan animate-pulse">|</span></p>
+          <p className="mt-4 text-2xl font-heading h-9 text-red-500" aria-live="off">{typed}<span className="text-brand-cyan animate-pulse">|</span></p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Magnetic><a href="#projects" className="inline-block px-7 py-3 rounded-xl grad-bg text-white font-semibold shadow-lg shadow-purple-500/30">View My Work</a></Magnetic>
             <Magnetic><a href={p.cv} download className="inline-block px-7 py-3 rounded-xl glass text-white font-semibold hover:border-white/30">Download CV</a></Magnetic>
