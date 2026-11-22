@@ -30,7 +30,7 @@ const portfolio = {
       { name: "Data Structures", icon: "ds" }, { name: "Machine Learning", icon: "ml" } ] },
   ],
   projects: [
-    { title: "E-Commerce Platform", description: "Full-stack store with auth, cart, checkout and an admin dashboard.", tags: ["React", "Node.js", "PostgreSQL"], image: "/assets/project-1.jpg", github: "https://github.com/", live: "https://example.com", gradient: "from-purple-600 to-cyan-500" },
+    { title: "E-Commerce Platform", description: "Full-stack store with auth, cart, checkout and an admin dashboard.", tags: ["React", "Node.js", "PostgreSQL"], image: "/assets/e-commerce-project.jpeg", github: "https://github.com/", live: "https://example.com", gradient: "from-purple-600 to-cyan-500" },
     { title: "ML Price Predictor", description: "Regression model served through a Flask API to estimate prices from features.", tags: ["Python", "scikit-learn", "Flask"], image: "/assets/project-2.jpg", github: "https://github.com/", live: "https://example.com", gradient: "from-cyan-500 to-pink-500" },
     { title: "Task Manager App", description: "Kanban-style task manager with a Django REST backend and React + Vite frontend.", tags: ["React", "Vite", "Django"], image: "/assets/project-3.jpg", github: "https://github.com/", live: "https://example.com", gradient: "from-pink-500 to-purple-600" },
   ],
